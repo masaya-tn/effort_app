@@ -28,6 +28,8 @@ gem 'jquery-rails'
 gem 'popper_js'
 gem 'rails-i18n'
 gem 'annotate'
+gem 'devise'
+gem 'redis-rails'
 
 
 # Use ActiveStorage variant
