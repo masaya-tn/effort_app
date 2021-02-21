@@ -1,0 +1,5 @@
+= form_with model: result, remote: true do |f|
+  = f.number_field :count_times, step: "0.1", placeholder: '学習時間'
+  = f.text_field :subject, placeholder: '学習内容'
+  = f.datetime_select :start_time
+  = f.submit '登録'

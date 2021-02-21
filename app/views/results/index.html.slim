@@ -1,0 +1,5 @@
+= month_calendar events: @results do |date, results|
+  = date.day
+  - results.each do |result|
+    = result.subject
+= render 'form', result: @result
