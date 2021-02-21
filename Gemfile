@@ -30,7 +30,7 @@ gem 'rails-i18n'
 gem 'annotate'
 gem 'devise'
 gem 'redis-rails'
-
+gem 'simple_calendar', '~> 2.0'
 
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
